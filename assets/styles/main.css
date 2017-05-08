@@ -63,6 +63,11 @@ table {
 	===============================
 */
 
+.page {
+	background-color: LightGray;
+	width: 100%;
+}
+
 /*
 	===============================
 
@@ -71,6 +76,27 @@ table {
 	===============================
 */
 
+
+.content:after {
+	content: "";
+	display: table;
+	clear: both;}
+
+.category {
+	float: left;
+	width: 15%;
+}
+
+section {
+	float: left;
+	width: 50%;
+}
+
+
+.notifications {
+	float: left;
+	width: 35%;
+}
 
 /*
 	===============================
@@ -83,10 +109,27 @@ table {
 /*
 	===============================
 
-		Custom Styles
+		Header
 
 	===============================
 */
+
+header {
+	height: 80px;
+	width: 100%;
+}
+
+.logo {
+	background-color: #666;
+	width: 200px;
+}
+
+nav a {
+	display: inline-block;
+	background-color: #999;
+	height: 80px;
+	width: 60px;
+}
 
 /*
 	===============================
@@ -96,11 +139,75 @@ table {
 	===============================
 */
 
+.category li {
+	background-color: #999;
+	height: 100px;
+	margin: auto;
+	width: 60%;
+}
+
+.category .head {
+	background-color: #444;
+	height: 25px;
+	margin-top: 60px;
+}
+
+.search {
+	background-color: #888;
+	height: 400px;
+	width: 100%;
+}
+
+.ads {
+	background-color: #999;
+	height: 800px;
+	width: 100%;
+}
+
+
 /*
 	===============================
 
-		Custom Styles
-		
+		Article
+
 	===============================
 */
 
+article {
+
+}
+
+.h1,
+.h3 {
+	height: 140px;
+	width: 100%;
+}
+
+.h1 {
+	background-color: #111;
+	margin-top: 60px;
+}
+
+.text {
+	background-color: #333;
+	height: 600px;
+	width: 100%;
+}
+
+article button {
+	padding: 10px;
+	margin: 40px;
+}
+
+/*
+	===============================
+
+		Footer
+
+	===============================
+*/
+
+footer {
+	height: 140px;
+	width: 100%;
+}
